@@ -7,7 +7,8 @@
 #ifdef SMINA_GPU
 //everything is guarded by SMINA_GPU
 // CUDA runtime
-#include <cuda5/cuda_runtime.h>
+//#include <cuda5/cuda_runtime.h>
+#include <cuda_runtime.h>
 #include <vector>
 
 struct GPUSplineInfo

@@ -4,6 +4,7 @@
 ./PDBQTUtilities.o: ../../../src/lib/parsing.h
 ./PDBQTUtilities.o: ../../../src/lib/parse_pdbqt.h
 ./PDBQTUtilities.o: ../../../src/lib/model.h
+./PDBQTUtilities.o: ../../../src/lib/optional_serialization.h
 ./PDBQTUtilities.o: ../../../src/lib/file.h
 ./PDBQTUtilities.o: ../../../src/lib/common.h
 ./PDBQTUtilities.o: ../../../src/lib/macros.h
@@ -178,6 +179,7 @@
 ./SminaConverter.o: ../../../src/lib/parsing.h
 ./SminaConverter.o: ../../../src/lib/parse_pdbqt.h
 ./SminaConverter.o: ../../../src/lib/model.h
+./SminaConverter.o: ../../../src/lib/optional_serialization.h
 ./SminaConverter.o: ../../../src/lib/file.h
 ./SminaConverter.o: ../../../src/lib/common.h
 ./SminaConverter.o: ../../../src/lib/macros.h
@@ -353,6 +355,7 @@
 ./builtinscoring.o: ../../../src/lib/custom_terms.h
 ./builtinscoring.o: ../../../src/lib/terms.h
 ./builtinscoring.o: ../../../src/lib/model.h
+./builtinscoring.o: ../../../src/lib/optional_serialization.h
 ./builtinscoring.o: ../../../src/lib/file.h
 ./builtinscoring.o: ../../../src/lib/common.h
 ./builtinscoring.o: ../../../src/lib/macros.h
@@ -533,6 +536,7 @@
 ./cache.o: ../../../src/lib/atom_constants.h
 ./cache.o: ../../../src/lib/triangular_matrix_index.h
 ./cache.o: ../../../src/lib/atom.h ../../../src/lib/model.h
+./cache.o: ../../../src/lib/optional_serialization.h
 ./cache.o: ../../../src/lib/file.h ../../../src/lib/tree.h
 ./cache.o: ../../../src/lib/conf.h
 ./cache.o: ../../../src/lib/quaternion.h
@@ -700,6 +704,7 @@
 ./custom_terms.o: ../../../src/lib/custom_terms.h
 ./custom_terms.o: ../../../src/lib/terms.h
 ./custom_terms.o: ../../../src/lib/model.h
+./custom_terms.o: ../../../src/lib/optional_serialization.h
 ./custom_terms.o: ../../../src/lib/file.h
 ./custom_terms.o: ../../../src/lib/common.h
 ./custom_terms.o: ../../../src/lib/macros.h
@@ -873,6 +878,7 @@
 ./everything.o: ../../../src/lib/everything.h
 ./everything.o: ../../../src/lib/terms.h
 ./everything.o: ../../../src/lib/model.h
+./everything.o: ../../../src/lib/optional_serialization.h
 ./everything.o: ../../../src/lib/file.h
 ./everything.o: ../../../src/lib/common.h
 ./everything.o: ../../../src/lib/macros.h
@@ -1056,9 +1062,11 @@
 ./grid.o: ../../../src/lib/atom_constants.h
 ./grid.o: ../../../src/lib/triangular_matrix_index.h
 ./grid.o: ../../../src/lib/atom.h
-./model.o: ../../../src/lib/model.h ../../../src/lib/file.h
-./model.o: ../../../src/lib/common.h ../../../src/lib/macros.h
-./model.o: ../../../src/lib/tree.h ../../../src/lib/conf.h
+./model.o: ../../../src/lib/model.h
+./model.o: ../../../src/lib/optional_serialization.h
+./model.o: ../../../src/lib/file.h ../../../src/lib/common.h
+./model.o: ../../../src/lib/macros.h ../../../src/lib/tree.h
+./model.o: ../../../src/lib/conf.h
 ./model.o: ../../../src/lib/quaternion.h
 ./model.o: ../../../src/lib/random.h ../../../src/lib/atom.h
 ./model.o: ../../../src/lib/atom_base.h
@@ -1221,6 +1229,7 @@
 ./model.o: ../../../src/lib/grid_dim.h ../../../src/lib/curl.h
 ./molgetter.o: ../../../src/lib/molgetter.h
 ./molgetter.o: ../../../src/lib/model.h
+./molgetter.o: ../../../src/lib/optional_serialization.h
 ./molgetter.o: ../../../src/lib/file.h
 ./molgetter.o: ../../../src/lib/common.h
 ./molgetter.o: ../../../src/lib/macros.h
@@ -1398,6 +1407,7 @@
 ./monte_carlo.o: ../../../src/lib/monte_carlo.h
 ./monte_carlo.o: ../../../src/lib/ssd.h
 ./monte_carlo.o: ../../../src/lib/model.h
+./monte_carlo.o: ../../../src/lib/optional_serialization.h
 ./monte_carlo.o: ../../../src/lib/file.h
 ./monte_carlo.o: ../../../src/lib/common.h
 ./monte_carlo.o: ../../../src/lib/macros.h
@@ -1571,6 +1581,7 @@
 ./monte_carlo.o: ../../../src/lib/mutate.h
 ./monte_carlo.o: ../../../src/lib/quasi_newton.h
 ./mutate.o: ../../../src/lib/mutate.h ../../../src/lib/model.h
+./mutate.o: ../../../src/lib/optional_serialization.h
 ./mutate.o: ../../../src/lib/file.h ../../../src/lib/common.h
 ./mutate.o: ../../../src/lib/macros.h ../../../src/lib/tree.h
 ./mutate.o: ../../../src/lib/conf.h
@@ -1751,6 +1762,7 @@
 ./naive_non_cache.o: ../../../src/lib/triangular_matrix_index.h
 ./naive_non_cache.o: ../../../src/lib/atom.h
 ./naive_non_cache.o: ../../../src/lib/model.h
+./naive_non_cache.o: ../../../src/lib/optional_serialization.h
 ./naive_non_cache.o: ../../../src/lib/file.h
 ./naive_non_cache.o: ../../../src/lib/tree.h
 ./naive_non_cache.o: ../../../src/lib/conf.h
@@ -1922,6 +1934,7 @@
 ./non_cache.o: ../../../src/lib/atom.h
 ./non_cache.o: ../../../src/lib/szv_grid.h
 ./non_cache.o: ../../../src/lib/model.h
+./non_cache.o: ../../../src/lib/optional_serialization.h
 ./non_cache.o: ../../../src/lib/file.h ../../../src/lib/tree.h
 ./non_cache.o: ../../../src/lib/conf.h
 ./non_cache.o: ../../../src/lib/quaternion.h
@@ -2088,6 +2101,7 @@
 ./parallel_mc.o: ../../../src/lib/monte_carlo.h
 ./parallel_mc.o: ../../../src/lib/ssd.h
 ./parallel_mc.o: ../../../src/lib/model.h
+./parallel_mc.o: ../../../src/lib/optional_serialization.h
 ./parallel_mc.o: ../../../src/lib/file.h
 ./parallel_mc.o: ../../../src/lib/tree.h
 ./parallel_mc.o: ../../../src/lib/conf.h
@@ -2261,6 +2275,7 @@
 ./parallel_progress.o: ../../../src/lib/incrementable.h
 ./parse_pdbqt.o: ../../../src/lib/parse_pdbqt.h
 ./parse_pdbqt.o: ../../../src/lib/model.h
+./parse_pdbqt.o: ../../../src/lib/optional_serialization.h
 ./parse_pdbqt.o: ../../../src/lib/file.h
 ./parse_pdbqt.o: ../../../src/lib/common.h
 ./parse_pdbqt.o: ../../../src/lib/macros.h
@@ -2439,6 +2454,7 @@
 ./pdb.o: ../../../src/lib/convert_substring.h
 ./quasi_newton.o: ../../../src/lib/quasi_newton.h
 ./quasi_newton.o: ../../../src/lib/model.h
+./quasi_newton.o: ../../../src/lib/optional_serialization.h
 ./quasi_newton.o: ../../../src/lib/file.h
 ./quasi_newton.o: ../../../src/lib/common.h
 ./quasi_newton.o: ../../../src/lib/macros.h
@@ -2618,6 +2634,7 @@
 ./random.o: ../../../src/lib/my_pid.h
 ./result_info.o: ../../../src/lib/result_info.h
 ./result_info.o: ../../../src/lib/model.h
+./result_info.o: ../../../src/lib/optional_serialization.h
 ./result_info.o: ../../../src/lib/file.h
 ./result_info.o: ../../../src/lib/common.h
 ./result_info.o: ../../../src/lib/macros.h
@@ -2789,6 +2806,7 @@
 ./result_info.o: ../../../src/lib/weighted_terms.h
 ./result_info.o: ../../../src/lib/terms.h
 ./ssd.o: ../../../src/lib/ssd.h ../../../src/lib/model.h
+./ssd.o: ../../../src/lib/optional_serialization.h
 ./ssd.o: ../../../src/lib/file.h ../../../src/lib/common.h
 ./ssd.o: ../../../src/lib/macros.h ../../../src/lib/tree.h
 ./ssd.o: ../../../src/lib/conf.h ../../../src/lib/quaternion.h
@@ -2951,7 +2969,9 @@
 ./ssd.o: ../../../src/lib/array3d.h
 ./ssd.o: ../../../src/lib/grid_dim.h ../../../src/lib/curl.h
 ./szv_grid.o: ../../../src/lib/szv_grid.h
-./szv_grid.o: ../../../src/lib/model.h ../../../src/lib/file.h
+./szv_grid.o: ../../../src/lib/model.h
+./szv_grid.o: ../../../src/lib/optional_serialization.h
+./szv_grid.o: ../../../src/lib/file.h
 ./szv_grid.o: ../../../src/lib/common.h
 ./szv_grid.o: ../../../src/lib/macros.h
 ./szv_grid.o: ../../../src/lib/tree.h ../../../src/lib/conf.h
@@ -3118,6 +3138,7 @@
 ./szv_grid.o: ../../../src/lib/grid_dim.h
 ./szv_grid.o: ../../../src/lib/curl.h ../../../src/lib/brick.h
 ./terms.o: ../../../src/lib/terms.h ../../../src/lib/model.h
+./terms.o: ../../../src/lib/optional_serialization.h
 ./terms.o: ../../../src/lib/file.h ../../../src/lib/common.h
 ./terms.o: ../../../src/lib/macros.h ../../../src/lib/tree.h
 ./terms.o: ../../../src/lib/conf.h
@@ -3285,6 +3306,7 @@
 ./weighted_terms.o: ../../../src/lib/weighted_terms.h
 ./weighted_terms.o: ../../../src/lib/terms.h
 ./weighted_terms.o: ../../../src/lib/model.h
+./weighted_terms.o: ../../../src/lib/optional_serialization.h
 ./weighted_terms.o: ../../../src/lib/file.h
 ./weighted_terms.o: ../../../src/lib/common.h
 ./weighted_terms.o: ../../../src/lib/macros.h
@@ -3455,8 +3477,10 @@
 ./weighted_terms.o: ../../../src/lib/curl.h
 ./main.o: ../../../src/lib/common.h ../../../src/lib/macros.h
 ./main.o: ../../../src/lib/parse_pdbqt.h
-./main.o: ../../../src/lib/model.h ../../../src/lib/file.h
-./main.o: ../../../src/lib/tree.h ../../../src/lib/conf.h
+./main.o: ../../../src/lib/model.h
+./main.o: ../../../src/lib/optional_serialization.h
+./main.o: ../../../src/lib/file.h ../../../src/lib/tree.h
+./main.o: ../../../src/lib/conf.h
 ./main.o: ../../../src/lib/quaternion.h
 ./main.o: ../../../src/lib/random.h ../../../src/lib/atom.h
 ./main.o: ../../../src/lib/atom_base.h
@@ -3649,6 +3673,7 @@
 ./MinimizationQuery.o: ../../../src/lib/parsing.h
 ./MinimizationQuery.o: ../../../src/lib/parse_pdbqt.h
 ./MinimizationQuery.o: ../../../src/lib/model.h
+./MinimizationQuery.o: ../../../src/lib/optional_serialization.h
 ./MinimizationQuery.o: ../../../src/lib/file.h
 ./MinimizationQuery.o: ../../../src/lib/tree.h
 ./MinimizationQuery.o: ../../../src/lib/conf.h
@@ -3836,6 +3861,7 @@
 ./QueryManager.o: ../../../src/lib/parsing.h
 ./QueryManager.o: ../../../src/lib/parse_pdbqt.h
 ./QueryManager.o: ../../../src/lib/model.h
+./QueryManager.o: ../../../src/lib/optional_serialization.h
 ./QueryManager.o: ../../../src/lib/file.h
 ./QueryManager.o: ../../../src/lib/tree.h
 ./QueryManager.o: ../../../src/lib/conf.h
@@ -4022,6 +4048,7 @@
 ./server.o: ../../../src/lib/parsing.h
 ./server.o: ../../../src/lib/parse_pdbqt.h
 ./server.o: ../../../src/lib/model.h
+./server.o: ../../../src/lib/optional_serialization.h
 ./server.o: ../../../src/lib/file.h ../../../src/lib/tree.h
 ./server.o: ../../../src/lib/conf.h
 ./server.o: ../../../src/lib/quaternion.h
@@ -4202,6 +4229,7 @@
 ./tosmina.o: ../../../src/lib/parsing.h
 ./tosmina.o: ../../../src/lib/parse_pdbqt.h
 ./tosmina.o: ../../../src/lib/model.h
+./tosmina.o: ../../../src/lib/optional_serialization.h
 ./tosmina.o: ../../../src/lib/file.h
 ./tosmina.o: ../../../src/lib/common.h
 ./tosmina.o: ../../../src/lib/macros.h

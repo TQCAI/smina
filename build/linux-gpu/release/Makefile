@@ -5,7 +5,7 @@ C_OPTIONS= -O3 -DNDEBUG -g
 #C_OPTIONS= -O3 -DNDEBUG -g -flto
 BOOST_LIB_VERSION=
 NVCC=nvcc
-NVOPTS=-gencode arch=compute_20,code=sm_20 -gencode arch=compute_30,code=sm_30 -O3
+NVOPTS=-gencode arch=compute_50,code=sm_50 -gencode arch=compute_52,code=sm_52 -O3
 OPENBABEL_INCLUDE=/usr/include/openbabel-2.0
 GPUOBJ = gpucode.o 
 

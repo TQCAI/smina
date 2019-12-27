@@ -1,2 +1,6 @@
 Debug
 Release/
+CMakeFiles
+build3
+.idea
+src/eigen/build
